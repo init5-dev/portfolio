@@ -58,7 +58,7 @@ function MobileNav() {
                     {
                         menuItems.map(
                             item => (
-                                <li className={styles.item}>
+                                <li className={styles.item + ' ' + styles.itemMobile}>
                                     <Link href={item.path}>
                                         {item.label}
                                     </Link>

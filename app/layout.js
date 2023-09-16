@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <Background />
         <Navbar />
-        <main className="flex w-full min-h-screen flex-col items-center justify-between py-8 sm:px-4 md:px-4 lg:px-16 pb-8">
+        <main className="flex w-screen min-h-screen flex-col items-center justify-between py-8 sm:px-4 md:px-4 lg:px-16 pb-8">
           {children}
         </main>
         <p className='text-center text-xs italic fade-in-left-90 mb-4'>Desarrollado con Next.js © 2023</p>

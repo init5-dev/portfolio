@@ -21,7 +21,7 @@ export default function Backgroundn() {
 
     return (
         <Particles
-            className="-z-50 absolute"
+            className="-z-50 absolute w-screen"
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -72,7 +72,7 @@ export default function Backgroundn() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 2,
                         straight: false,
                     },
                     number: {

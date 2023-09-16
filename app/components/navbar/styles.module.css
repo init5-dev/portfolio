@@ -1,17 +1,17 @@
 .nav {
-  @apply text-sm glass w-screen flex gap-4 p-4 items-center
+  @apply text-sm glass max-w-full flex gap-4 p-4 mx-0 items-center
 }
 
 .navSmall {
-  @apply text-sm glass w-screen grid grid-cols-1 gap-4 p-4 items-center
+  @apply text-sm glass max-w-full grid grid-cols-1 mx-0 gap-4 p-4 items-center
 }
 
 .mobile {
-  @apply w-screen flex gap-4 p-4 items-center;
+  @apply max-w-full flex gap-4 items-center;
 }
 
 .desktop {
-  @apply w-screen flex gap-4 p-4 items-center;
+  @apply w-full flex gap-4 items-center;
 }
 
 .desktopItemList {
@@ -19,7 +19,7 @@
 }
 
 .hamburger {
-  @apply w-full flex justify-end mr-4 pr-4;
+  @apply w-full flex justify-end;
 }
 
 .dropdown {
@@ -28,6 +28,10 @@
 
 .item {
   @apply hover:text-lime-600;
+}
+
+.itemMobile {
+  @apply hover:bg-white
 }
 
 .glass {
