@@ -12,8 +12,8 @@ export default function Home() {
         </div>
         <StoryCard />
       </div>
-      <div className='mt-16'>
-        <h2 className="text-center fade-in-left-70">¡Escríbeme!</h2>
+      <div className='rounded glass grid grid-cols-1 items-center justify-center p-4 m-2 sm:w-full md:w-full lg:w-96'>
+        <h2 className="text-center w-full fade-in-left-70">¡Escríbeme!</h2>
         <ContactForm />
       </div>
     </>
