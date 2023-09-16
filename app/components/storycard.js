@@ -22,7 +22,7 @@ export default function StoryCard() {
     }
 
     return (
-        <div className="flex items-center justify-center gap-4 my-4 py-4 sm:w-72 md:w-80 lg:w-96">
+        <div className="flex items-center justify-center gap-4 my-4 py-4 w-full">
 
             <div>
                 {
@@ -30,7 +30,7 @@ export default function StoryCard() {
                 }
             </div>
             <div className="w-full flex items-center">
-                <p className={textClass + ' lg:p-justify'}>
+                <p className={textClass + 'lg:text-justify md:text-justify sm:text-left'}>
                     {stories[storyProg].body}
                 </p>
             </div>
