@@ -1,0 +1,54 @@
+.nav {
+  @apply text-sm glass w-screen flex gap-4 p-4 items-center
+}
+
+.navSmall {
+  @apply text-sm glass w-screen grid grid-cols-1 gap-4 p-4 items-center
+}
+
+.mobile {
+  @apply w-screen flex gap-4 p-4 items-center;
+}
+
+.desktop {
+  @apply w-screen flex gap-4 p-4 items-center;
+}
+
+.desktopItemList {
+  @apply flex gap-4 w-full justify-end p-4 w-full
+}
+
+.hamburger {
+  @apply w-full flex justify-end mr-4 pr-4;
+}
+
+.dropdown {
+  @apply w-full grid grid-cols-1 p-4 text-center;
+}
+
+.item {
+  @apply hover:text-lime-600;
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fade {
+  animation: fadeAnimation 0.75s ease-in 1;
+}
+
+
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

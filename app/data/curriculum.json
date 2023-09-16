@@ -1,0 +1,98 @@
+{
+    "studies": [
+        {
+            "id": "0",
+            "img": "/media/IPI-Fernando-Aguado-y-Rico.jpg",
+            "degree": "Bachiller Técnico en Informática",
+            "center": "Instituto Politécnico \"Fernando Aguado y Rico\"",
+            "duration": "2006 - 2009"
+        },
+        {
+            "id": "1",
+            "img": "/media/UCI.jpg",
+            "degree": "Ingeniero informático",
+            "center": "Universidad de las Ciencias Informáticas (UCI)",
+            "duration": "2012 - 2016"
+        }
+    ],
+    "positions": [
+        {
+            "id": "0",
+            "img": "/media/icid.webp",
+            "title": "Programador en entornos Linux",
+            "company": "Instituto Central de Investigación Digital (ICID)",
+            "duration": "2012 - 2016",
+            "skills": [
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "id": "1",
+            "img": "/media/castropol.png",
+            "title": "Desarrollador Web",
+            "company": "Agrupación Castropol de La Habana",
+            "duration": "2017",
+            "skills": [
+                "PHP",
+                "Javascript",
+                "CSS3",
+                "Laravel",
+                "Bootstrap",
+                "Wordpress",
+                "WooCommerce"
+            ]
+        },
+        {
+            "id": "2",
+            "img": "/media/Innovadeluxe.png",
+            "title": "Posicionamiento web (SEO)",
+            "company": "Innovadeluxe",
+            "duration": "2018",
+            "skills": [
+                "Wordpress",
+                "WooCommerce",
+                "SEMrush",
+                "Ubersuggest"
+            ]
+        },
+        {
+            "id": "3",
+            "img": "/media/Initcoms.png",
+            "title": "Posicionamiento web (SEO)",
+            "company": "Initcoms",
+            "duration": "2020",
+            "skills": [
+                "Wordpress",
+                "WooCommerce",
+                "Facebook Ads",
+                "SEMrush",
+                "Ubersuggest"
+            ]
+        },
+        {
+            "id": "4",
+            "img": "/media/face.png",
+            "title": "Desarrollo web y SEO",
+            "company": "Freelancer",
+            "duration": "2021",
+            "skills": [
+                "PHP",
+                "Javascript",
+                "CSS3",
+                "Laravel",
+                "Bootstrap",
+                "Tailwindcss",
+                "React",
+                "Nextjs",
+                "Python",
+                "PyQt",
+                "OpenAI",
+                "Wordpress",
+                "Elementor",
+                "WpBackery Builder",
+                "WooCommerce"
+            ]
+        }
+    ]
+}
