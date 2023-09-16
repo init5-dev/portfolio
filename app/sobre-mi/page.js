@@ -15,7 +15,7 @@ export default async function SobreMi() {
     const data = await loadData()
 
     return (
-        <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-16 justify-items-center'>
+        <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-16 justify-items-center px-2'>
             <div>
                 <h2 className='fade-in-left-55'>Estudios</h2>
                 <CVList listType={'studies'} data={data.studies} />

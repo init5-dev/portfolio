@@ -12,10 +12,10 @@ const ArrowButton = ({ orientation = 'left', caption = '', onClick = null }) => 
         <button onClick={onClick} className="flex items-center justify-center">
             {
                 orientation === 'left' ?
-                    <ChevronLeft className="w-6 bg-transparent hover:bg-transparent hover:text-green-700 active:text-green-500 rounded-full" />
+                    <ChevronLeft className="w-4 bg-transparent hover:bg-transparent hover:text-green-700 active:text-green-500 rounded-full" />
                     :
                         orientation === 'right' ?
-                            <ChevronRight className="w-6 bg-transparent hover:bg-transparent hover:text-green-700 active:text-green-500 rounded-full" />
+                            <ChevronRight className="w-4 bg-transparent hover:bg-transparent hover:text-green-700 active:text-green-500 rounded-full" />
                         :
                             OrientationValueException()
             }

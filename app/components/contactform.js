@@ -52,7 +52,7 @@ const ContactForm = () => {
     <form
       action="https://getform.io/f/5560cfc7-5e9d-40cc-b75b-e8ecb3146990"
       method="POST"
-      className="w-96 fade-in-left-80"
+      className="sm:w-full md:w-full lg:w-96 mx-1 fade-in-left-80"
     >
       <div className="pt-0 mb-3">
         <input

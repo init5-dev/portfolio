@@ -22,15 +22,15 @@ export default function StoryCard() {
     }
 
     return (
-        <div className="flex items-center justify-center gap-8 my-4 py-4">
+        <div className="flex items-center justify-center gap-4 my-4 py-4">
 
             <div>
                 {
                     storyProg > 0 && <ArrowButton onClick={prevStory} />
                 }
             </div>
-            <div className="h-32 w-96 flex items-center">
-                <p className={textClass + ' p-justify'}>
+            <div className="w-full sm:w-72 md:w-80 lg:w-96 flex items-center">
+                <p className={textClass + ' lg:p-justify'}>
                     {stories[storyProg].body}
                 </p>
             </div>

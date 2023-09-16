@@ -12,12 +12,12 @@ const Projects = () => {
     )
 
     return (
-        <div className="grid grid-cols-1 items-center justify-center">
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
+        <div>
+            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 px-2">
                 {
                     projects.map(
                         project => (
-                            <div>
+                            <div className='grid grid-cols-1 justify-center'>
                                 <div key={project.id} className={`card-wide glass fade-in-left-${60 + Number(project.id) * 5}`}>
                                     <div className="w-full flex justify-center">
                                         <Image src={project.image} width={200} height={200} alt={project.title} />
@@ -31,7 +31,7 @@ const Projects = () => {
                                             <h3 className="text-lime-700">Desarrollado en</h3>
                                             <p>{project.techology}</p>
                         </div>*/}
-                                        <div className="my-3 h-16" >
+                                        <div className="my-3 h-24" >
                                             <h3 className="text-lime-700">Descripción</h3>
                                             <p className='h-16'>{project.description}</p>
                                         </div>
