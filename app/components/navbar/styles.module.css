@@ -15,7 +15,7 @@
 }
 
 .desktopItemList {
-  @apply flex gap-4 w-full justify-end p-4 w-full
+  @apply flex gap-4 w-full justify-end p-4
 }
 
 .hamburger {
