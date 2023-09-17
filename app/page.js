@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='sm:w-full sm:mx-2 md:w-full lg:w-1/2'>
       <StoryCard />
-      <h2 className="text-center w-full fade-in-left-70 mt-14">¡Escríbeme!</h2>
+      <h2 className="text-center w-full fade-in-left-70 mt-14 fade-in-left-70">¡Escríbeme!</h2>
       <ContactForm />
     </div>
   )
