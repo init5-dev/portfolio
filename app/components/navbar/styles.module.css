@@ -27,7 +27,7 @@
 }
 
 .item {
-  @apply hover:text-lime-600 w-full;
+  @apply hover:text-lime-600;
 }
 
 .itemMobile {
