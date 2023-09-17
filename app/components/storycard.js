@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { stories } from "../data/stories";
 import ArrowButton from "./arrowbutton";
+import Image from "next/image";
 
 export default function StoryCard() {
     const [storyProg, setStoryProg] = useState(0);
@@ -22,25 +23,30 @@ export default function StoryCard() {
     }
 
     return (
-        <div className="flex items-center justify-center gap-4 my-4 py-4 w-full">
-
-            <div>
-                {
-                    storyProg > 0 && <ArrowButton onClick={prevStory} />
-                }
+        <div className="flex flex-col justify-center glass p-2 m-2">
+            <div className='flex justify-center'>
+                <Image className="rounded-full fade-in-left-65 py-2" src="/media/Nelson-Ochagavia.jpg" width={240} height={240} />
             </div>
-            <div className="flex items-center">
-                <p className={textClass + 'lg:text-justify md:text-justify sm:text-left'}>
-                    {stories[storyProg].body}
-                </p>
-            </div>
+            <div className="flex items-center justify-center gap-4 my-4 py-4">
 
-            <div>
-                {
-                    storyProg < stories.length - 1 && <ArrowButton orientation="right" onClick={nextStory} />
-                }
-            </div>
+                <div>
+                    {
+                        storyProg > 0 && <ArrowButton onClick={prevStory} />
+                    }
+                </div>
+                <div>
+                    <p className={textClass + 'lg:text-justify md:text-justify sm:text-left'}>
+                        {stories[storyProg].body}
+                    </p>
+                </div>
 
+                <div>
+                    {
+                        storyProg < stories.length - 1 && <ArrowButton orientation="right" onClick={nextStory} />
+                    }
+                </div>
+
+            </div>
         </div>
     );
 }
