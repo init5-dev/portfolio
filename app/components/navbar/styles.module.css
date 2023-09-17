@@ -27,11 +27,11 @@
 }
 
 .item {
-  @apply hover:text-lime-600;
+  @apply hover:text-lime-600 w-full;
 }
 
 .itemMobile {
-  @apply hover:bg-white
+  @apply hover:bg-white hover:text-lime-600
 }
 
 .glass {
