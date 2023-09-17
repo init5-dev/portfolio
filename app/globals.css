@@ -78,6 +78,10 @@ code {
   @apply flex items-center justify-center m-5 p-5 border-2 border-gray-800 shadow-sm shadow-gray-900 rounded;
 }
 
+.form-input {
+  @apply glass focus:outline-none px-1 py-3 my-4 m-2 text-sm w-full text-gray-400 placeholder-gray-500 bg-white border-0 rounded shadow outline-none
+}
+
 
 .glass {
   /* From https://css.glass */

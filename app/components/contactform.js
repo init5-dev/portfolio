@@ -58,21 +58,21 @@ const ContactForm = () => {
             type="text"
             placeholder="Nombre"
             name="name"
-            className="glass focus:outline-none px-1 py-3 my-4 m-2 text-sm w-full text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            className="form-input"
             required
           />
           <input
             type="email"
             placeholder="Email"
             name="email"
-            className="glass focus:outline-none px-1 py-3 my-4 m-2 text-sm w-full text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            className="form-input"
             required
           />
           <textarea
             placeholder="Mensaje"
             rows='10'
             name="message"
-            className="resize-none glass focus:outline-none px-1 py-3 my-4 m-2 text-sm w-full text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+            className="resize-none form-input"
             required
           />
         <div className="w-full sm:mx-2 md:mx-0 lg:mx-0 pt-0 flex justify-center">
