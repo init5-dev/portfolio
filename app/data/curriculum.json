@@ -19,9 +19,9 @@
         {
             "id": "0",
             "img": "/media/icid.webp",
-            "title": "Programador en entornos Linux",
+            "title": "Programación de sistemas",
             "company": "Instituto Central de Investigación Digital (ICID)",
-            "duration": "2012 - 2016",
+            "duration": "2009 - 2012",
             "skills": [
                 "C++",
                 "Python"
@@ -29,10 +29,23 @@
         },
         {
             "id": "1",
+            "img": "/media/uci-logo.png",
+            "title": "Desarrollo de aplicaciones",
+            "company": "Universidad de las Ciencias Informáticas (UCI)",
+            "duration": "2012 - 2016",
+            "skills": [
+                "Wordpress",
+                "WooCommerce",
+                "SEMrush",
+                "Ubersuggest"
+            ]
+        },
+        {
+            "id": "2",
             "img": "/media/castropol.png",
-            "title": "Desarrollador Web",
+            "title": "Desarrollo web",
             "company": "Agrupación Castropol de La Habana",
-            "duration": "2017",
+            "duration": "2016 - 2017",
             "skills": [
                 "PHP",
                 "Javascript",
@@ -44,38 +57,11 @@
             ]
         },
         {
-            "id": "2",
-            "img": "/media/Innovadeluxe.png",
-            "title": "Posicionamiento web (SEO)",
-            "company": "Innovadeluxe",
-            "duration": "2018 - 2020",
-            "skills": [
-                "Wordpress",
-                "WooCommerce",
-                "SEMrush",
-                "Ubersuggest"
-            ]
-        },
-        {
-            "id": "3",
-            "img": "/media/Initcoms.png",
-            "title": "Posicionamiento web (SEO)",
-            "company": "Initcoms",
-            "duration": "2020 - 2021",
-            "skills": [
-                "Wordpress",
-                "WooCommerce",
-                "Facebook Ads",
-                "SEMrush",
-                "Ubersuggest"
-            ]
-        },
-        {
             "id": "4",
             "img": "/media/face.png",
             "title": "Desarrollo web y SEO",
-            "company": "Freelancer",
-            "duration": "2021 - 2023",
+            "company": "FREELANCE",
+            "duration": "2018 - 2023",
             "skills": [
                 "PHP",
                 "Javascript",
