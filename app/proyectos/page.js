@@ -20,7 +20,7 @@ const Projects = () => {
             <Samples samples={samples} type="Front-end"/>
             <br />
             <Samples samples={samples} type="Back-end"/>} */}
-            <h2 className='fade-in-left-55'>Proyectos</h2>
+            <h2 className='fade-in-left-55 text-center'>Proyectos</h2>
             <ProjectsList projects={projects} />
         </div>
     );
