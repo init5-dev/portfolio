@@ -34,8 +34,8 @@ export default function StoryCard() {
                     }
                 </div>
                 <div>
-                    <p className={'lg:text-justify md:text-justify sm:text-left'}>
-                        {stories[storyProg].body}
+                    <p className={'lg:text-justify md:text-justify sm:text-left'} dangerouslySetInnerHTML={{__html: stories[storyProg].body}}>
+                        
                     </p>
                 </div>
 

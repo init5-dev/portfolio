@@ -96,6 +96,10 @@ code {
   @apply grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-4 items-center w-full my-2 p-5 border-2 border-gray-800 shadow-sm shadow-gray-900 rounded;
 }
 
+.card-wide-simple {
+  @apply grid lg:grid-cols-1 gap-4 items-start justify-start w-full my-2 p-5 border-2 border-gray-800 shadow-sm shadow-gray-900 rounded;
+}
+
 .fade-in-left {
   animation: fadeInLeft 1s ease-in 1;
 }
