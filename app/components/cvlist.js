@@ -31,7 +31,7 @@ export default function CVList({ listType, data }) {
             (position) => (
                 <div key={position.id} className={`card-wide glass fade-in-left-${50 + Number(position.id)*5}`}>
                     <div className="w-full flex justify-center items-center">
-                        <Image src={position.img} width={150} height={150} alt='IPI Fernando Aguado y Rico' />
+                        <Image src={position.img} width={200} height={200} alt='IPI Fernando Aguado y Rico' />
                     </div>
                     <div className="w-full">
                         <div className="my-3" >
