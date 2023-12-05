@@ -15,14 +15,11 @@ const Projects = () => {
 
     return (
         <div>
-            <h2 className='fade-in-left-55'>Muestras</h2>
+            {/* {<h2 className='fade-in-left-55'>Muestras</h2>
             <br />
             <Samples samples={samples} type="Front-end"/>
             <br />
-            <Samples samples={samples} type="Back-end"/>
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 px-2">
-
-            </div>
+            <Samples samples={samples} type="Back-end"/>} */}
             <h2 className='fade-in-left-55'>Proyectos en los que he trabajado...</h2>
             <ProjectsList projects={projects} />
         </div>
