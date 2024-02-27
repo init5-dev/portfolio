@@ -108,23 +108,14 @@ function DesktopNav() {
 }
 
 export default function Navbar() {
-    const [windowSize, setWindowSize] = useState([0, 0]);
-
-    useEffect(() => {
-        setWindowSize([window.innerWidth, window.innerHeight])
-
-        const handleWindowResize = () => {
-            setWindowSize([window.innerWidth, window.innerHeight]);
-        };
-
-        window.addEventListener('resize', handleWindowResize);
-
-        return () => {
-            window.removeEventListener('resize', handleWindowResize);
-        };
-    }, []);
-
     return (
-        windowSize[0] < 720 ? <MobileNav /> : <DesktopNav />
+        <>
+            <div class="md:collapse md:h-0">
+                <MobileNav class="collapse-content" />
+            </div>
+            <div class="collapse h-0 md:visible md:h-auto">
+                <DesktopNav class="collapse-content" />
+            </div>
+        </>
     );
 }
