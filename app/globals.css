@@ -69,7 +69,6 @@ code {
   @apply text-5xl;
 }
 
-
 .bg-image {
   @apply fixed -z-10 w-full h-full blur-sm;
 }

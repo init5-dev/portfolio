@@ -9,7 +9,7 @@ export const stories = [
         body: `¡Hola! Soy <span style="color: #00749C">Nelson Ochagavía</span>, un desarrollador web altamente cualificado con <span style="color: #3EB489">${xpYears(2018)}+ años creando experiencias</span> dinámicas y centradas en el usuario en toda la pila web.`
     },
     {
-        body: `Domino los últimos frameworks de <span style="color: #f0db4f">JavaScript</span>, incluyendo <span style="color: #61dbfb">React.js</span>, <span style="color: #45ce05">Next.js</span> y <span style="color: #f0db4f">Express</span>, y los utilizo para construir front-ends hermosos, y back-ends robustos y eficientes.`
+        body: `Domino los últimos frameworks de <span style="color: #f0db4f">JavaScript</span>, incluyendo <span style="color: #61dbfb">React.js</span>, <span style="color: #45ce05">Next.js</span>, <span style="color: #f0db4f">Express</span> y <span style="color: #f73c00">Sveltekit</span>, y los utilizo para construir front-ends hermosos, y back-ends robustos y eficientes.`
     }, 
     {
         body: `Mi kit de herramientas de UI/UX incluye <span style="color: #b8c2cc">Tailwindcss</span>, <span style="color: #563d7c">Bootstrap</span> y <span style="color: #f0db4f">Material UI</span>, garantizando interfaces perfectas para cualquier proyecto.`

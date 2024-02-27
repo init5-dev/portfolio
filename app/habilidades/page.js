@@ -16,6 +16,7 @@ import {
 } from "styled-icons/fa-brands";
 import { Reactjs } from 'styled-icons/remix-fill';
 import { Qt, Woo, Nextdotjs, Tailwindcss, Bootstrap, Express, Mui, Mysql, Postgresql, Mongodb } from "styled-icons/simple-icons";
+import { SiSvelte } from "@icons-pack/react-simple-icons";
 
 export default function Habilidades() {
     return (
@@ -46,6 +47,12 @@ export default function Habilidades() {
                         <Nextdotjs id='next-icon' color="#000055" size={84} />
                     </div>
                     <p className={styles.skillName}>Next.js</p>
+                </div>
+                <div className={"fade-in-left-75 md:fade-in-left-65 " + styles.skill}>
+                    <div>
+                        <SiSvelte id='svelte-icon' color="#f73c00" size={84} />
+                    </div>
+                    <p className={styles.skillName}>Sveltekit</p>
                 </div>
                 <div className={"fade-in-left-70 md:fade-in-left-75 " + styles.skill}>
                     <Tailwindcss color="#b8c2cc" size={84} />
