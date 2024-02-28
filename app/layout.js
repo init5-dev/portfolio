@@ -5,7 +5,15 @@ import Background from './components/background.js'
 
 export const metadata = {
   title: 'Init5Dev',
-  description: 'Portfolio de Nelson Ochagavía',
+  description: 'Portfolio de Nelson Ochagavía - Desarrollador web full-stack',
+  verification: {
+    google: 'google',
+    yandex: 'yandex',
+    yahoo: 'yahoo',
+    other: {
+      me: ['nelson.ochagavia@gmail.com', 'https://init5-dev.netlify.app'],
+    },
+  },
 }
 
 export default function RootLayout({ children }) {
