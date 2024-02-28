@@ -1,13 +1,5 @@
 export const projects = [
     {
-        title: 'Alivi Health Trasportation Module',
-        type: 'Empresarial',
-        techology: 'React, AWS Amplify',
-        description: 'Solución de transporte para el plan de salud de Alivi',
-        image: '/media/alivi.webp',
-        link: 'https://alivi.com/transportation/'
-    },
-    {
         title: 'Inversur Propiedades',
         type: 'Empresarial',
         techology: 'Wordpress + Elementor',
