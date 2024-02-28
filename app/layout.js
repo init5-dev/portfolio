@@ -7,9 +7,7 @@ export const metadata = {
   title: 'Init5Dev',
   description: 'Portfolio de Nelson Ochagavía - Desarrollador web full-stack',
   verification: {
-    google: 'google',
-    yandex: 'yandex',
-    yahoo: 'yahoo',
+    google: 'l3P667TJRCEH_L2Va4G9hI0-ladB2pHrLi4YHc14JRU',
     other: {
       me: ['nelson.ochagavia@gmail.com', 'https://init5-dev.netlify.app'],
     },
