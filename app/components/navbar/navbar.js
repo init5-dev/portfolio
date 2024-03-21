@@ -12,10 +12,10 @@ const menuItems = [
         label: 'Inicio',
         path: '/',
     },
-    {
-        label: 'Sobre mí',
-        path: '/sobre-mi'
-    },
+    // {
+    //     label: 'Sobre mí',
+    //     path: '/sobre-mi'
+    // },
     {
         label: 'Habilidades',
         path: '/habilidades'
