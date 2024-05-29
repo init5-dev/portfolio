@@ -78,14 +78,14 @@ export default function Habilidades() {
                     <Mongodb color="#4cab3d" size={84} />
                     <p className={styles.skillName}>MongoDB</p>
                 </div>
-                <div className={"fade-in-left-65 md:fade-in-left-75 " + styles.skill}>
+                {/* <div className={"fade-in-left-65 md:fade-in-left-75 " + styles.skill}>
                     <Php color="#AEB2D5" size={84} />
                     <p className={styles.skillName}>PHP</p>
                 </div>
                 <div className={"fade-in-left-60 md:fade-in-left-70 " + styles.skill}>
                     <Laravel color="#f55247" size={84} />
                     <p className={styles.skillName}>Laravel</p>
-                </div>
+                </div> */}
                 <div className={"fade-in-left-55 md:fade-in-left-65 " + styles.skill}>
                     <Git color="#e84e31" size={84} />
                     <p className={styles.skillName}>Git</p>
@@ -96,7 +96,7 @@ export default function Habilidades() {
                 </div>
                 <div className={"fade-in-left-70 md:fade-in-left-70 " + styles.skill}>
                     <Qt size={84} color="#3859a3" />
-                    <p className={styles.skillName}>PyQT</p>
+                    <p className={styles.skillName}>PyQt</p>
                 </div>
                 <div className={"fade-in-left-65 md:fade-in-left-65 " + styles.skill}>
                     <Openai size={84} color="#00A67E" />
