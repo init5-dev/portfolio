@@ -5,7 +5,7 @@ import Background from './components/background.js'
 
 export const metadata = {
   title: 'Init5Dev',
-  description: 'Portfolio de Nelson Ochagavía - Desarrollador web full-stack',
+  description: "Nelson Ochagavía's portfolio - Full-stack developer",
   verification: {
     google: 'l3P667TJRCEH_L2Va4G9hI0-ladB2pHrLi4YHc14JRU',
     other: {
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <main className="flex w-screen min-h-screen flex-col items-center justify-between py-8 sm:px-4 md:px-4 lg:px-16 pb-8">
           {children}
         </main>
-        <p className='text-center text-xs italic fade-in-left-90 mb-4'>Desarrollado con Next.js</p>
+        <p className='text-center text-xs italic fade-in-left-90 mb-4'>Developed with Next.js © 2023</p>
       </body>
     </html>
   )

@@ -57,7 +57,7 @@ const ContactForm = () => {
       >
           <input
             type="text"
-            placeholder="Nombre"
+            placeholder="Name"
             name="name"
             className="form-input"
             required
@@ -70,7 +70,7 @@ const ContactForm = () => {
             required
           />
           <textarea
-            placeholder="Mensaje"
+            placeholder="Message"
             rows='10'
             name="message"
             className="resize-none form-input"
@@ -81,7 +81,7 @@ const ContactForm = () => {
             className="active:bg-lime-600 hover:shadow-lg focus:outline-none px-6 py-3 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-lime-700 rounded shadow outline-none"
             type="submit"
           >
-            Enviar
+            Send!
           </button>
         </div>
       </form>

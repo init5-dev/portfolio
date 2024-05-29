@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const menuItems = [
     {
-        label: 'Inicio',
+        label: 'Home',
         path: '/',
     },
     // {
@@ -17,12 +17,12 @@ const menuItems = [
     //     path: '/sobre-mi'
     // },
     {
-        label: 'Habilidades',
-        path: '/habilidades'
+        label: 'Skills',
+        path: '/skills'
     },
     {
-        label: 'Proyectos',
-        path: '/proyectos'
+        label: 'Projects',
+        path: '/projects'
     },
 ]
 

@@ -8,6 +8,22 @@ export const projects = [
         link: 'https://github.com/init5-dev/Atwood'
     },
     {
+        title: "Minerva AI",
+        type: 'Personal',
+        techology: 'React.js, Typescript, Express, MongoDB',
+        description: "AI webchat based on Google Gemini AI API.",
+        image: '/media/minerva.png',
+        link: 'https://github.com/init5-dev/Minerva'
+    },
+    {
+        title: "Gamor Demo",
+        type: 'Personal',
+        techology: 'React.js & Vanilla CSS',
+        description: "Game streaming platform demo to show my front-end skills",
+        image: '/media/gamor-demo.png',
+        link: 'https://github.com/init5-dev/Gamor-demo'
+    },
+    {
         title: 'Atwood',
         type: 'Personal',
         techology: 'Python + PyQT + OpenAI API',

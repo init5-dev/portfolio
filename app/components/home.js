@@ -10,9 +10,9 @@ export default function HomeComp() {
             <Test />
             <Image className="rounded-full fade-in-left-65" src="/media/Nelson Ochagavía.jpg" width={240} height={240} />
             <StoryCard />
-                <h2 className="text-center fade-in-left-70">¡Contáctame!</h2>
+                <h2 className="text-center fade-in-left-70">Contact me!</h2>
                 <ContactForm />
-                <p className='mt-16 mb-4w-full text-center italic fade-in-left-90'>Desarrollado con Next.js y Tailwindcss © 2023</p>
+                <p className='mt-16 mb-4w-full text-center italic fade-in-left-90'>Developed with Next.js y Tailwindcss © 2023</p>
         </div>
     )
 }

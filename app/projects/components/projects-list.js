@@ -14,20 +14,19 @@ const ProjectsList = ({ projects }) => {
                   </div>
                   <div className="w-full">
                     <div className="my-3" >
-                      <h3 className="text-lime-700">Proyecto</h3>
+                      <h3 className="text-lime-700">Project</h3>
                       <p>{project.title}</p>
                     </div>
-                    <div className="my-3" >
-                      <h3 className="text-lime-700">Tipo</h3>
+                    {/* <div className="my-3" >
+                      <h3 className="text-lime-700">Type</h3>
                       <p>{project.type}</p>
-                    </div>
+                    </div> */}
                     <div className="my-3 h-24" >
-                      <h3 className="text-lime-700">Descripción</h3>
+                      <h3 className="text-lime-700">Description</h3>
                       <p className='h-16'>{project.description}</p>
                     </div>
                     <div className="my-3" >
-                      <h3 className="text-lime-700">Enlace</h3>
-                      <p><a className='text-lime-300 underline' href={project.link}>{project.title}</a></p>
+                      <p><a className='text-lime-300 underline' href={project.link}>Click to visit!</a></p>
                     </div>
                   </div>
                 </div>
