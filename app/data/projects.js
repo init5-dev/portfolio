@@ -1,9 +1,33 @@
 export const projects = [
     {
+        title: "Multidimensional Covey's Matrix",
+        type: 'Personal',
+        techology: 'Sveltekit, Typescript & Prisma ORM',
+        description: "Performance web app based on The 7 Habits of Highly Effective People, by Steven Covey.",
+        image: '/media/multidimensional-covey-matrix.png',
+        link: 'https://github.com/init5-dev/Atwood'
+    },
+    {
+        title: 'Atwood',
+        type: 'Personal',
+        techology: 'Python + PyQT + OpenAI API',
+        description: 'Desk app for the massive generation of human-quality AI content.',
+        image: '/media/atwood.png',
+        link: 'https://github.com/init5-dev/Atwood'
+    },
+    {
+        title: 'Chat AT',
+        type: 'Personal',
+        techology: 'Python + OpenAI API',
+        description: 'Desk chat based on Atwood Engine (ATE).',
+        image: '/media/ate.png',
+        link: 'https://github.com/init5-dev/chat-at'
+    },
+    {
         title: 'Inversur Propiedades',
         type: 'Empresarial',
         techology: 'Wordpress + Elementor',
-        description: 'Sitio web de corredores de propiedades en el sur de Chile',
+        description: 'Property broker website in southern Chile.',
         image: '/media/inversur.png',
         link: 'https://www.inversurpropiedades.cl/'
     },
@@ -11,7 +35,7 @@ export const projects = [
         title: 'Innoval',
         type: 'Empresarial',
         techology: 'Wordpress + WooCommerce + Elementor',
-        description: 'Clínica integral en Validiva',
+        description: 'Holistic clinic in Valdivia.',
         image: '/media/innoval.png',
         link: 'https://innoval.cl/'
     },
@@ -19,7 +43,7 @@ export const projects = [
         title: 'Búho Agencia Digital (Chile)',
         type: 'Empresarial',
         techology: '',
-        description: 'Agencia de desarrollo web y marketing online',
+        description: 'Web development and online marketing agency.',
         image: '/media/buho.png',
         link: 'https://buhoagenciadigital.cl/'
     },
@@ -27,24 +51,8 @@ export const projects = [
         title: 'Dhammadasa',
         type: 'Colaborativo',
         techology: 'Wordpress + WooCommerce + Elementor',
-        description: 'Sitio web de budismo',
+        description: 'Theravada Buddhism Website',
         image: '/media/dhammadasa.png',
         link: 'https://dhammadasa.org/'
-    },
-    {
-        title: 'Atwood',
-        type: 'Personal',
-        techology: 'Python + PyQT + OpenAI API',
-        description: 'Generación masiva de contenido IA calidad Premium',
-        image: '/media/atwood.png',
-        link: 'https://github.com/init5-dev/Atwood'
-    },
-    {
-        title: 'Atengine',
-        type: 'Personal',
-        techology: 'Python + OpenAI API',
-        description: 'Motor de escritura IA que emplea la API de OpenAI',
-        image: '/media/ate.png',
-        link: 'https://github.com/init5-dev/atengine'
-    },
+    }
 ]
