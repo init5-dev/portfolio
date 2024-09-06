@@ -27,7 +27,7 @@ const ProjectsList = ({ projects }) => {
                     </div>
                     <div className="my-3" >
                       <p className="mb-4"><span className="text-lime-700 font-semibold">Repository:</span> <a className='text-lime-300 underline' href={project.link.github}>{project.link.github ? project.link.github.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
-                      <p><span className="text-lime-700 font-semibold">Site:</span> <a className='text-lime-300 underline' href={project.link.github}>{project.link.deploy ? project.link.deploy.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
+                      <p><span className="text-lime-700 font-semibold">Site:</span> <a className='text-lime-300 underline' href={project.link.deploy}>{project.link.deploy ? project.link.deploy.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
                     </div>
                   </div>
                 </div>
