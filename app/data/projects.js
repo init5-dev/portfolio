@@ -13,7 +13,7 @@ export const projects = [
         techology: 'Next.js, React.js, Typescript & Vanilla CSS',
         description: "Game streaming platform demo to show my front-end skills",
         image: '/media/gamor-demo.png',
-        link: { github: 'https://github.com/init5-dev/Gamor-demo', deploy: '' }
+        link: { github: 'https://github.com/init5-dev/Gamor-demo', deploy: 'https://gamor-demo.vercel.app' }
     },
     {
         title: 'Búho Agencia Digital (Chile)',
