@@ -10,7 +10,7 @@ const ProjectsList = ({ projects }) => {
               <div className='grid grid-cols-1 justify-center'>
                 <div key={key} className={`card-wide glass fade-in-left-${60 + key * 5}`}>
                   <div className="w-full flex justify-center transition-all duration-200 ease-in-out transform hover:scale-105">
-                    <a className='text-lime-300 underline' href={project.link.deploy ? project.link.deploy : project.link.github}><Image src={project.image} width={200} height={200} alt={project.title} /></a>
+                    <a className='text-lime-300 underline' href={project.link.deploy ? project.link.deploy : project.link.github} target="_blank" rel="noopener noreferrer"><Image src={project.image} width={200} height={200} alt={project.title} /></a>
                   </div>
                   <div className="w-full">
                     <div className="my-3" >
@@ -26,8 +26,8 @@ const ProjectsList = ({ projects }) => {
                       <p className='h-16'>{project.description}</p>
                     </div>
                     <div className="my-3" >
-                      <p className="mb-4"><span className="text-lime-700 font-semibold">Repository:</span> <a className='text-lime-300 underline' href={project.link.github}>{project.link.github ? project.link.github.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
-                      <p><span className="text-lime-700 font-semibold">Site:</span> <a className='text-lime-300 underline' href={project.link.deploy}>{project.link.deploy ? project.link.deploy.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
+                      <p className="mb-4"><span className="text-lime-700 font-semibold">Repository:</span> <a className='text-lime-300 underline' href={project.link.github} target="_blank" rel="noopener noreferrer">{project.link.github ? project.link.github.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
+                      <p><span className="text-lime-700 font-semibold">Site:</span> <a className='text-lime-300 underline' href={project.link.deploy} target="_blank" rel="noopener noreferrer">{project.link.deploy ? project.link.deploy.replace('http://', '').replace('https://', '') : 'N\\A'}</a></p>
                     </div>
                   </div>
                 </div>

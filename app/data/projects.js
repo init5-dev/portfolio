@@ -2,15 +2,23 @@ export const projects = [
     {
         title: 'Theravada Cuba',
         type: 'Community',
-        techology: 'Next.js, React.js, Typescript, TailwindCSS, DaisyUI ',
+        techology: 'React.js, Next.js, Typescript, DaisyUI',
         description: 'Official website of the Theravada Buddhist community Cuba.',
         image: '/media/theravada-cuba.png',
         link: { github: 'https://github.com/init5-dev/ThC', deploy: 'https://theravadacuba.org' }
     },
     {
+        title: 'PinStellix',
+        type: 'Personal',
+        techology: 'React.js, Next.js, Typescript, Supabase, DaisyUI',
+        description: 'Space Exploration and Collection Platform.',
+        image: '/media/PinStellix.png',
+        link: { github: 'https://github.com/init5-dev/PinStellix', deploy: 'https://pin-stellix.vercel.app' }
+    },
+    {
         title: "Gamor Demo",
         type: 'Demo',
-        techology: 'Next.js, React.js, Typescript & Vanilla CSS',
+        techology: 'React.js, Next.js, Typescript & Vanilla CSS',
         description: "Game streaming platform demo to show my front-end skills",
         image: '/media/gamor-demo.png',
         link: { github: 'https://github.com/init5-dev/Gamor-demo', deploy: 'https://gamor-demo.vercel.app' }
